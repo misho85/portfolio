@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google Analytics -->
+    <!-- <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script> -->
+    <!-- End Google Analytics -->
+
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Mišo Stevović | Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mišo Stevović | Developer">
+    <!-- <meta property="og:description" content="Portfolio"> -->
+    <!-- <meta property="og:url" content=""> -->
+    <meta property="og:site_name" content="Mišo Stevović | Developer">
+    <!-- <meta property="article:publisher" content=""> -->
+    <!-- <meta property="og:image" content=""> -->
+    <!-- <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@andrewarei"> -->
+    <meta name="twitter:title" content="Mišo Stevović | Developer">
+    <!-- <meta name="twitter:description" content="Portfolio"> -->
+    <!-- <meta name="twitter:url" content=""> -->
+    <meta name="author" content="Mišo Stevović">
+    <!-- <meta name="description" content="Portfolio"> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+    <meta name="robots" content="index, follow">
+    <!-- <meta name="google-site-verification" content=""> -->
+
+    <!-- Font Awesome Icon - CSS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+            <h1>Mišo Stevović<span class="brown-text light">Developer</span></h1></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark amber-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark red-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark green-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark cyan-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Mišo's resume in a new tab" href="https://www.google.com/" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Mišo Stevović</a><span class="brown-text light">Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark amber-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark red-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark green-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark cyan-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Mišo's Resume in a new tab" href="https://www.google.com/" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="container-face">
+            <img class="face circle-border bg-white p1" src="/static/img/0.jpeg" alt="">
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>Mission-driven developer with a passion for thoughtful UI design, collaboration, and teaching.</h2>
+          </blockquote>
+          <p>As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things.</p>
+          <p><strong>Current Focus</strong>:&nbsp;<a &nbsp;<a aria-label="Navigate to the Full Stack React homepage" href="https://www.fullstackreact.com/">React</a></p>
+        </div>
+      </section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="" target="_blank"><img alt="" src="" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="" target="_blank" class="teal-text hoverline">Posao 1</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Radno mesto</div>
+              <p><em class="grey-text">opis</em></p>
+              <h6>Develop Product</h6>
+              <ul>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jan 2018 - Present  |  Beograd, Srbija</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="" target="_blank"><img alt="" src="" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="" target="_blank" class="teal-text hoverline">Posao 2</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Radno mesto</div>
+              <p><em class="grey-text">opis</em></p>
+              <ul>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jan 2018 - Present  |  Belgrade, Serbia</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="" target="_blank"><img alt="" src="" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="" target="_blank" class="teal-text hoverline">Posao 3</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Radno mesto</div>
+              <p><em class="grey-text">opis</em></p>
+              <ul>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>/*/*/*/*/</li>
+                <li>/*/*/*/*/</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jan 2018 - Present  |  Belgrade, Serbia</span></div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- Projekat 1-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="" src="" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Projekat 1<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Blogging web app.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Materialize CSS</strong> frontend</li>
+                    <li>User <strong>authentication</strong> via Devise</li>
+                    <li>Implemented <strong>liking functionality</strong></li>
+                    <li><strong>Client-side rendering</strong> via AJAX</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Code Island website" href="" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="" href="" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Projekat 2-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="" src="" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Projekat 2<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Online Code.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Integrated “Next Meeting” via <strong>Meetup API</strong></li>
+                    <li>Developed <strong>CSS and JS</strong> responsive menu</li>
+                    <li>Created member list via <strong>GitHub API</strong></li>
+                    <li>Refreshed branding and layout</li>
+                    <li>Refactored all existing code (<strong>Jekyll</strong>)</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="" href="" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="" href="" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Projekat 3-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="" src="" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Projekat 3<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>themed app.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Built with Ruby on <strong>Rails</strong></li>
+                    <li>Integrated <strong>Twilio API</strong></li>
+                    <li>Designed in <strong>Bootstrap</strong></li>
+                    <li><strong>Javascript</strong> input validation</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="" href="" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="" href="" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/html5.png" class="responsive-img">HTML5</div>
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">JSX</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/css3.png" class="responsive-img">CSS3</div>
+                <div class="col s4 m2"><img alt="" src="static/img/sass.png" class="responsive-img">SASS</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
+                <div class="col s4 m2"><img alt="" src="static/img/foundation.png" class="responsive-img">Foundation</div>
+                <div class="col s4 m2"><img alt="" src="static/img/materialize.png" class="responsive-img">Materialize</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">React</div>
+                <div class="col s4 m2"><img alt="" src="static/img/javascript.png" class="responsive-img">Javascript</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jquery.png" class="responsive-img">jQuery</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/webpack.png" class="responsive-img">Webpack</div>
+                <div class="col s4 m2"><img alt="" src="static/img/gulp.png" class="responsive-img">Gulp</div>
+                <div class="col s4 m2"><img alt="" src="static/img/grunt.png" class="responsive-img">Grunt</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/github.png" class="responsive-img">Github</div>
+                <div class="col s4 m2"><img alt="" src="static/img/heroku.png" class="responsive-img">Heroku</div>
+                <div class="col s4 m2"><img alt="" src="static/img/photoshop.png" class="responsive-img">Photoshop</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="" class="teal-text hoverline">University of Belgrade</a></span></p>
+                  <p class="brown-text">Belgrade, Serbia | 2007 - 2010</p>
+                  <ul>
+                    <li>B.A. in nothing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="" class="teal-text hoverline">Megatrend University</a></span></p>
+                  <p class="brown-text">Belgrade, RS | 2013 - Present</p>
+                  <ul>
+                    <li>B.A. candidate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p><a aria-label="Email Mišo" href="mailto:stevovic@gmail.com" data-position="top" data-tooltip="Email Mišo" class="btn-floating btn-large waves-effect waves-light green tooltipped"><i class="fa fa-envelope"></i><a alt="" href="mailto:stevovic@gmail.com" class="hoverline">stevovic@gmail.com</a></a></p>
+          <p><a aria-label="View Mišo on GitHub" href="https://github.com/misho85" target="_blank" data-position="top" data-tooltip="View Mišo on GitHub" class="btn-floating btn-large waves-effect waves-light green tooltipped"><i class="fab fa-github"></i><a alt="" href="https://github.com/misho85" class="hoverline">github.com/misho85</a></a></p>
+          <p><a aria-label="View Mišo on LinkedIn" href="https://www.linkedin.com/in/miso-stevovic/" target="_blank" data-position="top" data-tooltip="View Mišo on LinkedIn" class="btn-floating btn-large waves-effect waves-light green tooltipped"><i class="fab fa-linkedin-in"></i><a alt="" href="https://www.linkedin.com/in/miso-stevovic/" class="hoverline">linkedin.com/in/miso-stevovic</a></a></p>
+        </div>
+      </section>
+    </main>
+   <!-- jQuery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+      });
+    </script>
+  </body>
+</html>
