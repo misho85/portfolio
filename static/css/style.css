@@ -4,14 +4,14 @@ body {
 }
 
 .bg-white {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .circle-border {
 	border-radius: 50%;
 	border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,.125);
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, .125);
 }
 
 .circle-border:hover {
@@ -19,8 +19,9 @@ body {
 }
 
 .p1 {
-    padding: .5rem !important;
+	padding: .5rem !important;
 }
+
 .container-face {
 	padding-top: 10rem !important;
 	text-align: center;
@@ -58,11 +59,13 @@ nav {
 	box-shadow: none;
 	height: 0;
 }
+
 nav i {
 	padding: 0 15px;
 	position: relative;
 	top: 5px;
 }
+
 main {
 	/*background: url(../../static/img/bg.png) repeat;*/
 	padding-left: 190px;
@@ -106,7 +109,7 @@ ul.side-nav.fixed li.logo a {
 ul.table-of-contents li:not(.logo) a.active,
 ul.table-of-contents li:not(.logo) a:hover {
 	background-color: #fafafa;
-	border-left: 3px solid ;
+	border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
@@ -121,9 +124,9 @@ li.logo span {
 
 .brand-logo h1 {
 	font-size: inherit;
-  line-height: inherit;
-  margin: inherit;
-  font-weight: inherit;
+	line-height: inherit;
+	margin: inherit;
+	font-weight: inherit;
 }
 
 .container {
@@ -186,9 +189,9 @@ h3 {
 }
 
 .waves-effect.waves-blue .waves-ripple {
-   /* The alpha value allows the text and background color
+	/* The alpha value allows the text and background color
    of the button to still show through. */
-    background-color: rgba(33, 150, 243, 0.2);
+	background-color: rgba(33, 150, 243, 0.2);
 }
 
 .card {
@@ -235,7 +238,7 @@ h3 {
 }
 
 #experience .card-action {
-	background-color: rgba(0,0,0,0.02);
+	background-color: rgba(0, 0, 0, 0.02);
 	border: none;
 }
 
@@ -324,6 +327,7 @@ a.hoverline:hover {
 .card.large .card-image {
 	height: 230px;
 }
+
 .card.large .card-content {
 	height: auto;
 }
@@ -407,88 +411,87 @@ a.hoverline:hover {
 	}
 	h3 {
 		padding: 20px 30px;
-  		margin-bottom: 40px;
+		margin-bottom: 40px;
 	}
 	.container {
-		margin:  0 auto;
+		margin: 0 auto;
 	}
-
 	nav.hide-on-large.only.trigger {
 		display: block;
-	  	position: fixed;
-	  	top: 0;
-	  	z-index: 2;
+		position: fixed;
+		top: 0;
+		z-index: 2;
 	}
 	.name-title {
-	  	display: block;
-	  	height: 100%;
-	  	padding-top: 15px;
-	  	text-align: center;
-	  	width: 100%;
-    		position: absolute;
+		display: block;
+		height: 100%;
+		padding-top: 15px;
+		text-align: center;
+		width: 100%;
+		position: absolute;
 	}
-	.name-title > span,
-	.name-title > a {
-    		position: relative;
-    		line-height: 20px;
+	.name-title>span,
+	.name-title>a {
+		position: relative;
+		line-height: 20px;
 	}
 	.name-title a {
-    		font-size: 22px;
-    		display: block;
+		font-size: 22px;
+		display: block;
 	}
 	.name-title span {
-   		display: block;
-    		font-size: 14px;
+		display: block;
+		font-size: 14px;
 	}
 	h3,
 	.container {
-    		position: relative;
-    		top: 64px;
+		position: relative;
+		top: 64px;
 	}
 	section#intro {
-	    	margin-bottom: -64px;
+		margin-bottom: -64px;
 	}
 	.card .role {
-   	 	position: relative;
-    		right: initial;
-    		top: initial;
+		position: relative;
+		right: initial;
+		top: initial;
 	}
 }
 
 @media (max-width: 600px) {
 	h2 {
-	  	font-size: 22px;
-	  	line-height: 200%;
-	  	margin: 30px 0 0;
+		font-size: 22px;
+		line-height: 200%;
+		margin: 30px 0 0;
 	}
 	#intro.section .container *:not(span) {
 		padding: 0;
 	}
 	.card .card-content .card-title {
-    		font-size: 20px;
-    		line-height: 24px;
+		font-size: 20px;
+		line-height: 24px;
 	}
 	#experience span.card-title {
-    		text-align: center;
-    		display: block
+		text-align: center;
+		display: block
 	}
 	#experience span.card-title a {
-	   	margin: 0;
+		margin: 0;
 	}
 	i.mdi-navigation-close.right {
-	  	position: relative;
-	  	bottom: 35px;
+		position: relative;
+		bottom: 35px;
 	}
 	#contact a:not(.btn-floating) {
-    		text-align: center;
-    		display: block;
-    		left: initial;
-    		bottom: initial;
+		text-align: center;
+		display: block;
+		left: initial;
+		bottom: initial;
 	}
 	#contact a.btn-floating.btn-large {
-	    	display: block;
-	    	text-align: center;
-	    	margin: 0 auto;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
 	}
 	#intro.section {
 		background-position-x: 30%;
