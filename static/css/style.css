@@ -336,6 +336,10 @@ a.hoverline:hover {
 	height: 240px;
 }
 
+.card.medium {
+	height: 360px;
+}
+
 .card-action a.btn-floating {
 	margin-bottom: 0;
 }
