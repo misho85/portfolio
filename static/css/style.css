@@ -324,6 +324,10 @@ a.hoverline:hover {
 	padding-bottom: 10px;
 }
 
+.card-image img {
+	top: -5rem !important;
+}
+
 .card.large .card-image {
 	height: 230px;
 }
