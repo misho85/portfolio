@@ -18,6 +18,18 @@ body {
 	background-color: rgb(13, 130, 197);
 }
 
+.edu {
+	padding: 3px 3px 0 3px;
+}
+
+.fac {
+	font-size: 1.3rem;
+}
+
+.dat {
+	font-size: 1rem;
+}
+
 .p1 {
 	padding: .3rem !important;
 }
